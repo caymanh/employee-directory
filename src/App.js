@@ -45,7 +45,7 @@ import employee from "./employee.json";
 
 class App extends Component {
   state = {
-    employee
+    employee,
   };
 
   render() {
@@ -55,14 +55,14 @@ class App extends Component {
         <Border />
         <Search />
         <EmployeeTable />
-        {this.state.employee.map(employee => (
-          <EmployeeCard 
-          image={employee.picture.large}
-          name={employee.name.first}
-          phone={employee.phone}
-          email={employee.email}
-          dob={employee.dob.date.substring(0, 10)}
-          key={employee.email}
+        {this.state.employee.map((employee) => (
+          <EmployeeCard
+            image={employee.picture.medium}
+            name={employee.name.first}
+            phone={employee.phone}
+            email={employee.email}
+            dob={employee.dob.date.substring(0, 10)}
+            key={employee.email}
           />
         ))}
       </div>
