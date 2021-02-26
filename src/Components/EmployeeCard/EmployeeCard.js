@@ -8,10 +8,10 @@ function EmployeeCard(props) {
         <div className="col">
           <img alt={props.name} src={props.image} />
         </div>
-        <div className="col">{props.name}</div>
-        <div className="col">{props.phone}</div>
-        <div className="col">{props.email}</div>
-        <div className="col">{props.dob}</div>
+        <div className="col  my-auto">{props.name}</div>
+        <div className="col  my-auto">{props.phone}</div>
+        <div className="col  my-auto">{props.email}</div>
+        <div className="col  my-auto">{props.dob}</div>
       </div>
     </div>
   );
