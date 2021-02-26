@@ -1,0 +1,182 @@
+[
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Adam",
+        "last": "Poulsen"
+      },
+      "email": "adam.poulsen@example.com",
+      "dob": {
+        "date": "1951-06-26T17:09:45.377Z",
+        "age": 70
+      },
+      "phone": "83372255",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/94.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/94.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Ilídio",
+        "last": "Pereira"
+      },
+      "email": "ilidio.pereira@example.com",
+      "dob": {
+        "date": "1975-07-12T10:52:44.874Z",
+        "age": 46
+      },
+      "phone": "(70) 6931-1415",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/54.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/54.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/54.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Finn",
+        "last": "Styve"
+      },
+      "email": "finn.styve@example.com",
+      "dob": {
+        "date": "1997-03-19T00:28:56.669Z",
+        "age": 24
+      },
+      "phone": "89398461",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/11.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/11.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Carter",
+        "last": "Margaret"
+      },
+      "email": "carter.margaret@example.com",
+      "dob": {
+        "date": "1981-03-31T18:07:23.420Z",
+        "age": 40
+      },
+      "phone": "645-659-6529",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/16.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/16.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Ms",
+        "first": "Brooklyn",
+        "last": "Morris"
+      },
+      "email": "brooklyn.morris@example.com",
+      "dob": {
+        "date": "1995-07-14T13:48:36.473Z",
+        "age": 26
+      },
+      "phone": "(837)-492-6644",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/64.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/64.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/64.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Patsy",
+        "last": "Hill"
+      },
+      "email": "patsy.hill@example.com",
+      "dob": {
+        "date": "1948-05-08T22:47:13.001Z",
+        "age": 73
+      },
+      "phone": "(751)-445-4560",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/0.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/0.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/0.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Monsieur",
+        "first": "Enrico",
+        "last": "Michel"
+      },
+      "email": "enrico.michel@example.com",
+      "dob": {
+        "date": "1952-02-12T04:18:59.044Z",
+        "age": 69
+      },
+      "phone": "076 729 88 33",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/20.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/20.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Rodrigo",
+        "last": "Duran"
+      },
+      "email": "rodrigo.duran@example.com",
+      "dob": {
+        "date": "1966-05-18T17:11:41.468Z",
+        "age": 55
+      },
+      "phone": "940-879-764",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/10.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/10.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/10.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Jean",
+        "last": "Mckinney"
+      },
+      "email": "jean.mckinney@example.com",
+      "dob": {
+        "date": "1968-10-22T17:50:45.201Z",
+        "age": 53
+      },
+      "phone": "(252)-032-8924",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/82.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Ethan",
+        "last": "Carr"
+      },
+      "email": "ethan.carr@example.com",
+      "dob": {
+        "date": "1978-02-23T14:23:07.122Z",
+        "age": 43
+      },
+      "phone": "015395 55878",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/53.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/53.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/53.jpg"
+      }
+    }
+  ]
