@@ -10,13 +10,23 @@ import API from "./utils/API";
 class App extends Component {
   state = {
     employee: [],
+    search: ""
   };
-
+  
   componentDidMount() {
-    API.search()
-      .then((res) => {
-        this.setState({ employee: res.data.results });
+    API.search().then((res) => {
+      let modData = res.data.results.map((employee, index) => {
+        return {
+          name: employee.name.first + " " + employee.name.last,
+          phone: employee.phone,
+          email: employee.email,
+          dob: employee.dob.date.substring(0, 10),
+          picture: employee.picture.medium,
+          id: index,
+        };
       });
+      this.setState({ employee: modData });
+    });
   }
 
   render() {
@@ -24,16 +34,17 @@ class App extends Component {
       <div className="App">
         <Header />
         <Border />
-        <Search />
+        <Search 
+          search={this.state.search}/>
         <EmployeeTable />
         {this.state.employee.map((employee) => (
           <EmployeeCard
-            image={employee.picture.medium}
-            firstName={employee.name.first}
+            image={employee.picture}
+            firstName={employee.name}
             phone={employee.phone}
             email={employee.email}
-            dob={employee.dob.date.substring(0, 10)}
-            key={employee.email}
+            dob={employee.dob}
+            key={employee.id}
           />
         ))}
       </div>
