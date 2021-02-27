@@ -29,7 +29,7 @@ class App extends Component {
         {this.state.employee.map((employee) => (
           <EmployeeCard
             image={employee.picture.medium}
-            name={employee.name.first}
+            firstName={employee.name.first}
             phone={employee.phone}
             email={employee.email}
             dob={employee.dob.date.substring(0, 10)}
