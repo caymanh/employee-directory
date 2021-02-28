@@ -26,6 +26,7 @@ class EmployeeTable extends React.Component {
     }
   }
 
+  //Sort employees by age
   sortAge = () => {
     let sortEmp = [];
     if (this.state.ascending) {
@@ -62,9 +63,10 @@ class EmployeeTable extends React.Component {
 
           <div className="col mx-auto text-center">Phone</div>
           <div className="col mx-auto text-center">E-mail</div>
-          <div className="col mx-auto text-center" onClick={this.sortAge}>Age ⇵</div>
+          <div className="col mx-auto text-center" onClick={this.sortAge}>
+            Age ⇵
+          </div>
         </div>
-
         {this.state.sortedEmployees.length > 0 &&
           this.state.sortedEmployees.map((item, index) => (
             <EmployeeCard

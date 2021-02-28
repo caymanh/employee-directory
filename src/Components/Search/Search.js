@@ -15,7 +15,7 @@ class Search extends React.Component {
       });
     }
   }
-
+  //Filter employees by name
   handleInputChange = (event) => {
     this.setState({
       searchTerm: event.target.value,
