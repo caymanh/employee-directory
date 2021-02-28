@@ -22,7 +22,7 @@
 
  The app is built using React.
 
- The live app can be accessed [here]().
+ The live app can be accessed [here](https://caymanh.github.io/employee-directory/).
 
  <p align="center">
     <img alt="Screenshot of Employee Directory" src="./public/employee-directory-01.JPG">
