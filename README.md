@@ -18,7 +18,7 @@
 
  ### Description
 
- Employee Directory is an application that allows a user to view the entire employee directory at once so that they can have quick access to employee information. Users are able to filter the employees by name and sort the column by clicking on the carrot either by ascending or descending order.
+ Employee Directory is an application that allows a user to view the entire employee directory at once so that they can have quick access to employee information. Users are able to filter the employees by name and sort their names in alphabetical order by clicking on the name column.
 
  The app is built using React.
 
