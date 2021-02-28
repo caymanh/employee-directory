@@ -20,7 +20,7 @@
 
  Employee Directory is an application that allows a user to view the entire employee directory at once so that they can have quick access to employee information. Users are able to filter the employees by name using the search box and sort employees by their age by clicking on the age column.
 
- The app is built using React.
+ The app is built using React and utilizes the [Random User API](https://randomuser.me/) to generate employee data.
 
  The live app can be accessed [here](https://caymanh.github.io/employee-directory/).
 
