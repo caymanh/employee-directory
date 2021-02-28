@@ -13,7 +13,7 @@ function EmployeeCard(props) {
         </div>
         <div className="col text-center my-auto mx-auto">{props.phone}</div>
         <div className="col text-center my-auto mx-auto">{props.email}</div>
-        <div className="col text-center my-auto mx-auto">{props.dob}</div>
+        <div className="col text-center my-auto mx-auto">{props.age}</div>
       </div>
     </div>
   );
