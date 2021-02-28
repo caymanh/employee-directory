@@ -57,7 +57,7 @@ class EmployeeTable extends React.Component {
         <div className="row font-weight-bold border-top border-bottom py-3">
           <div className="col mx-auto">Image</div>
           <div className="col mx-auto text-center" onClick={this.sortName}>
-            Name
+            Name ⇵
           </div>
 
           <div className="col mx-auto text-center">Phone</div>
